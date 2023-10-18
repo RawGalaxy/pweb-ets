@@ -1,0 +1,32 @@
+@font-face {
+  font-family: lgbold;
+  src: url(/font/LeagueSpartan-Bold.otf);
+}
+@font-face {
+  font-family: lglight;
+  src: url(/font/LeagueSpartan-Light.ttf);
+}
+* {
+  font-family: lglight, sans-serif;
+}
+.col {
+  margin-top: 30px;
+}
+.movie-container{
+  padding: 10px;
+  font-family: lglight, sans-serif;
+  border: 0px;
+  border-style: solid;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: start;
+  box-shadow: 1px 1px 10px rgb(171, 171, 171);
+}
+.movie-container h5 {
+  font-family: lgbold;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.movie-desc {
+  margin-top: 15px;
+}
